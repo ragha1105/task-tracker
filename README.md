@@ -12,17 +12,13 @@ It uses an H2 in-memory database
 ## Steps:
 1. Clone the repository
 2. Run the project using Maven (or use IntelliJ’s green run button if you prefer)
-3. Open your browser and go to
-
-### H2 Database Console
-To view your database in a web browser:
-- Open: `http://localhost:8080/h2-console`
-
-Use the following settings:
-
-- JDBC URL: `jdbc:h2:mem:testdb`
-- User Name: `sa`
-- Password: *(leave it empty)*
+3. Open your browser and go to H2 Database Console
+4. To view your database in a web browser:
+   - Open: `http://localhost:8080/h2-console`
+   - Use the following settings:
+         JDBC URL: `jdbc:h2:mem:testdb`
+         User Name: `sa`
+         Password: *(leave it empty)*
 
 ### Features
 - Add new tasks
