@@ -16,9 +16,9 @@ It uses an H2 in-memory database
 4. To view your database in a web browser:
    - Open: `http://localhost:8080/h2-console`
    - Use the following settings:
-         JDBC URL: `jdbc:h2:mem:testdb`
-         User Name: `sa`
-         Password: *(leave it empty)*
+   - JDBC URL: `jdbc:h2:mem:testdb`
+   - User Name: `sa`
+   - Password: *(leave it empty)*
 
 ### Features
 - Add new tasks
