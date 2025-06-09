@@ -31,4 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
-/src/main/resources/application.properties
+
+### Ignore application.properties so credentials/config don’t get pushed
+src/main/resources/application.properties
